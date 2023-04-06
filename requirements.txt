@@ -1,0 +1,3 @@
+gdown
+scipy
+opencv-python

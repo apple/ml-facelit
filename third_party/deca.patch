@@ -1,0 +1,26 @@
+diff --git a/demos/demo_reconstruct.py b/demos/demo_reconstruct.py
+index 73429ca..e31d935 100755
+--- a/demos/demo_reconstruct.py
++++ b/demos/demo_reconstruct.py
+@@ -85,6 +85,12 @@ def main(args):
+                 if args.render_orig:
+                     image = util.tensor2image(orig_visdict[vis_name][0])
+                     cv2.imwrite(os.path.join(savefolder, name, 'orig_' + name + '_' + vis_name +'.jpg'), util.tensor2image(orig_visdict[vis_name][0]))
++        if args.saveCode:
++            for key, val in codedict.items():
++                codedict[key] = val.detach().cpu()    
++            del codedict['images']
++            torch.save(codedict, os.path.join(savefolder, name + '.pth'))
++
+     print(f'-- please check the results in {savefolder}')
+         
+ if __name__ == '__main__':
+@@ -125,4 +131,7 @@ if __name__ == '__main__':
+                         help='whether to save outputs as .mat' )
+     parser.add_argument('--saveImages', default=False, type=lambda x: x.lower() in ['true', '1'],
+                         help='whether to save visualization output as seperate images' )
++    parser.add_argument('--saveCode', default=False, type=lambda x: x.lower() in ['true', '1'],
++                        help='whether to save latent codes to pth' )
++
+     main(parser.parse_args())
+\ No newline at end of file

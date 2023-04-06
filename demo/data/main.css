@@ -1,0 +1,477 @@
+body {
+    font-family: "DejaVu Sans", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h3 {
+    font-weight: 300;
+}
+
+#header {
+    margin: 0px;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    background-color: #eee;
+}
+
+.author {
+    display: inline;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.author>a {
+    color: #333;
+}
+
+#content {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#toplinks {
+    padding: 2em;
+    text-align: center;
+}
+
+.toplink {
+    display: inline-block;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: center;
+}
+
+.toplink>a {
+    color: #333;
+}
+
+.highlight-box {
+    background-color: #eee;
+    font-style: italic;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 6em;
+    padding-right: 6em;
+    color: #333;
+    font-weight: 100;
+    line-height: 140%;
+}
+
+.highlight-box>h2 {
+    margin-top: 0em;
+}
+
+.code {
+    font-family: monospace;
+    text-align: left;
+    padding-left: 10em;
+    color: #666;
+}
+
+.anim {
+    width: 100%;
+    margin: 8px;
+    border-radius: 16px;
+}
+
+.resultbox {
+    padding-bottom: 27%;
+    overflow: hidden;
+}
+
+.resultrow {
+    max-width: 1024px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    animation-iteration-count: infinite;
+}
+
+@keyframes resultrow-1-of-3 {
+    from {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    28% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    33% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    95% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    to {
+        visibility: visible;
+        opacity: 100%;
+    }
+}
+
+.resultrow-1-of-3 {
+    visibility: hidden;
+    animation-name: resultrow-1-of-3;
+    animation-duration: 15s;
+}
+
+@keyframes resultrow-2-of-3 {
+    from {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    28% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    33% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    61% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    66% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    95% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+}
+
+.resultrow-2-of-3 {
+    visibility: hidden;
+    animation-name: resultrow-2-of-3;
+    animation-duration: 15s;
+}
+
+@keyframes resultrow-3-of-3 {
+    from {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    61% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    66% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    95% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    to {
+        visibility: hidden;
+        opacity: 0%;
+    }
+}
+
+.resultrow-3-of-3 {
+    visibility: hidden;
+    animation-name: resultrow-3-of-3;
+    animation-duration: 15s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes resultrow-1-of-7 {
+    from {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    12% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    14% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    98% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    to {
+        visibility: visible;
+        opacity: 100%;
+    }
+}
+
+.resultrow-1-of-7 {
+    visibility: hidden;
+    animation-name: resultrow-1-of-7;
+    animation-duration: 35s;
+}
+
+@keyframes resultrow-2-of-7 {
+    from {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    12% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    14% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    26% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    28% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    98% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+}
+
+.resultrow-2-of-7 {
+    visibility: hidden;
+    animation-name: resultrow-2-of-7;
+    animation-duration: 35s;
+}
+
+@keyframes resultrow-3-of-7 {
+    from {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    26% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    28% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    41% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    43% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    98% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+}
+
+.resultrow-3-of-7 {
+    visibility: hidden;
+    animation-name: resultrow-3-of-7;
+    animation-duration: 35s;
+}
+
+@keyframes resultrow-4-of-7 {
+    from {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    41% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    43% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    55% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    57% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    98% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+}
+
+.resultrow-4-of-7 {
+    visibility: hidden;
+    animation-name: resultrow-4-of-7;
+    animation-duration: 35s;
+}
+
+@keyframes resultrow-5-of-7 {
+    from {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    55% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    57% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    69% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    71% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    98% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+}
+
+.resultrow-5-of-7 {
+    visibility: hidden;
+    animation-name: resultrow-5-of-7;
+    animation-duration: 35s;
+}
+
+@keyframes resultrow-6-of-7 {
+    from {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    69% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    71% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    84% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    86% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    98% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+}
+
+.resultrow-6-of-7 {
+    visibility: hidden;
+    animation-name: resultrow-6-of-7;
+    animation-duration: 35s;
+}
+
+@keyframes resultrow-7-of-7 {
+    from {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    84% {
+        visibility: hidden;
+        opacity: 0%;
+    }
+
+    86% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    98% {
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    to {
+        visibility: hidden;
+        opacity: 0%;
+    }
+}
+
+.resultrow-7-of-7 {
+    visibility: hidden;
+    animation-name: resultrow-7-of-7;
+    animation-duration: 35s;
+}
+

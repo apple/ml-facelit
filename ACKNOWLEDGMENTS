@@ -1,0 +1,125 @@
+Acknowledgements
+Portions of this ml-neuman Software may utilize the following copyrighted 
+material, the use of which is hereby acknowledged.
+
+_____________________
+
+Apple (GMPI)
+    Copyright (C) 2022 Apple Inc. All Rights Reserved.  
+
+    IMPORTANT:  This Apple software is supplied to you by Apple Inc. ("Apple") in consideration of your agreement to the following terms, and your use, installation, modification or redistribution of this Apple software constitutes acceptance of these terms.  If you do not agree with these terms, please do not use, install, modify or redistribute this Apple software.
+
+    In consideration of your agreement to abide by the following terms, and subject to these terms, Apple grants you a personal, non-commercial, non-exclusive license, under Apple's copyrights in this original Apple software (the "Apple Software"), to use, reproduce, modify and redistribute the Apple Software, with or without modifications, in source and/or binary forms for non-commercial purposes only; provided that if you redistribute the Apple Software in its entirety and without modifications, you must retain this notice and the following text and disclaimers in all such redistributions of the Apple Software. Neither the name, trademarks, service marks or logos of Apple Inc. may be used to endorse or promote products derived from the Apple Software without specific prior written permission from Apple.  Except as expressly stated in this notice, no other rights or licenses, express or implied, are granted by Apple herein, including but not limited to any patent rights that may be infringed by your derivative works or by other works in which the Apple Software may be incorporated.
+
+    The Apple Software is provided by Apple on an "AS IS" basis.  APPLE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, REGARDING THE APPLE SOFTWARE OR ITS USE AND OPERATION ALONE OR IN COMBINATION WITH YOUR PRODUCTS.
+
+    IN NO EVENT SHALL APPLE BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE, REPRODUCTION, MODIFICATION AND/OR DISTRIBUTION OF THE APPLE SOFTWARE, HOWEVER CAUSED AND WHETHER UNDER THEORY OF CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.   
+
+    -------------------------------------------------------------------------------
+    SOFTWARE DISTRIBUTED WITH GMPI:
+
+    The GMPI software includes a number of subcomponents with separate 
+    copyright notices and license terms - please see the file ACKNOWLEDGEMENTS.
+    -------------------------------------------------------------------------------
+
+===========================================================================
+
+NVlabs (EG3D)
+    Copyright (c) 2021-2022, NVIDIA Corporation & affiliates. All rights
+    reserved.
+
+
+    NVIDIA Source Code License for EG3D
+
+
+    =======================================================================
+
+    1. Definitions
+
+    "Licensor" means any person or entity that distributes its Work.
+
+    "Software" means the original work of authorship made available under
+    this License.
+
+    "Work" means the Software and any additions to or derivative works of
+    the Software that are made available under this License.
+
+    The terms "reproduce," "reproduction," "derivative works," and
+    "distribution" have the meaning as provided under U.S. copyright law;
+    provided, however, that for the purposes of this License, derivative
+    works shall not include works that remain separable from, or merely
+    link (or bind by name) to the interfaces of, the Work.
+
+    Works, including the Software, are "made available" under this License
+    by including in or with the Work either (a) a copyright notice
+    referencing the applicability of this License to the Work, or (b) a
+    copy of this License.
+
+    2. License Grants
+
+        2.1 Copyright Grant. Subject to the terms and conditions of this
+        License, each Licensor grants to you a perpetual, worldwide,
+        non-exclusive, royalty-free, copyright license to reproduce,
+        prepare derivative works of, publicly display, publicly perform,
+        sublicense and distribute its Work and any resulting derivative
+        works in any form.
+
+    3. Limitations
+
+        3.1 Redistribution. You may reproduce or distribute the Work only
+        if (a) you do so under this License, (b) you include a complete
+        copy of this License with your distribution, and (c) you retain
+        without modification any copyright, patent, trademark, or
+        attribution notices that are present in the Work.
+
+        3.2 Derivative Works. You may specify that additional or different
+        terms apply to the use, reproduction, and distribution of your
+        derivative works of the Work ("Your Terms") only if (a) Your Terms
+        provide that the use limitation in Section 3.3 applies to your
+        derivative works, and (b) you identify the specific derivative
+        works that are subject to Your Terms. Notwithstanding Your Terms,
+        this License (including the redistribution requirements in Section
+        3.1) will continue to apply to the Work itself.
+
+        3.3 Use Limitation. The Work and any derivative works thereof only
+        may be used or intended for use non-commercially. The Work or
+        derivative works thereof may be used or intended for use by NVIDIA
+        or it’s affiliates commercially or non-commercially. As used
+        herein, "non-commercially" means for research or evaluation
+        purposes only and not for any direct or indirect monetary gain.
+
+        3.4 Patent Claims. If you bring or threaten to bring a patent claim
+        against any Licensor (including any claim, cross-claim or
+        counterclaim in a lawsuit) to enforce any patents that you allege
+        are infringed by any Work, then your rights under this License from
+        such Licensor (including the grants in Sections 2.1) will terminate
+        immediately.
+
+        3.5 Trademarks. This License does not grant any rights to use any
+        Licensor’s or its affiliates’ names, logos, or trademarks, except
+        as necessary to reproduce the notices described in this License.
+
+        3.6 Termination. If you violate any term of this License, then your
+        rights under this License (including the grants in Sections 2.1)
+        will terminate immediately.
+
+    4. Disclaimer of Warranty.
+
+    THE WORK IS PROVIDED "AS IS" WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WARRANTIES OR CONDITIONS OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR
+    NON-INFRINGEMENT. YOU BEAR THE RISK OF UNDERTAKING ANY ACTIVITIES UNDER
+    THIS LICENSE.
+
+    5. Limitation of Liability.
+
+    EXCEPT AS PROHIBITED BY APPLICABLE LAW, IN NO EVENT AND UNDER NO LEGAL
+    THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE
+    SHALL ANY LICENSOR BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY DIRECT,
+    INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF
+    OR RELATED TO THIS LICENSE, THE USE OR INABILITY TO USE THE WORK
+    (INCLUDING BUT NOT LIMITED TO LOSS OF GOODWILL, BUSINESS INTERRUPTION,
+    LOST PROFITS OR DATA, COMPUTER FAILURE OR MALFUNCTION, OR ANY OTHER
+    COMMERCIAL DAMAGES OR LOSSES), EVEN IF THE LICENSOR HAS BEEN ADVISED OF
+    THE POSSIBILITY OF SUCH DAMAGES.
+

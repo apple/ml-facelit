@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>FaceLit: Neural 3D Relightable Faces</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <h1>FaceLit: Neural 3D Relightable Faces</h1>
+        <span class="author">Anurag Ranjan&#9822 &emsp; Kwang Moo Yi&#9820 &emsp; Jen-Hao Rick Chang&#9822 &emsp; Oncel Tuzel&#9822</span>
+        <br><br>
+        <span class="institution"> &#9822Apple &emsp; &#9820The University of British Columbia</span>
+    </div>
+
+    <div id="content">
+
+
+        <h1>Novel View Rendering with Relighting </h1>
+
+        <div>
+            <video class="anim" autoplay muted loop controls src="data/ffhq/interp_view_light.mp4"></video>
+            <span> Novel view rendering with relighting </span>
+            <br><br>
+            <br><br>
+        </div>
+
+        <h1>Novel Relighting with Constant Pose</h1>
+        <div>
+            <div>
+                <video class="anim" autoplay muted loop controls src="data/ffhq/light_interp_x0.mp4"></video>
+                <span> Novel Relighting with Constant Pose with environment map rotated along X axis </span>    
+            </div>
+            <br><br>
+            <div>
+                <video class="anim" autoplay muted loop controls src="data/ffhq/light_interp_y0.mp4"></video>
+                <span> Novel Relighting with Constant Pose with environment map rotated along Y axis </span>                    
+            </div>
+            <br><br>
+            <div>
+                <video class="anim" autoplay muted loop controls src="data/ffhq/light_interp_z0.mp4"></video>
+                <span> Novel Relighting with Constant Pose with environment map rotated along Z axis </span>                    
+            </div>
+
+        <br><br>
+        <br><br>
+
+        <h1>Novel View Rendering with Constant Illumination</h1>
+
+        <div>
+            <video class="anim" autoplay muted loop controls src="data/ffhq/view_interp.mp4"></video>
+            <span> Novel view rendering using our model </span>
+            <br><br>
+            <video class="anim" autoplay muted loop controls src="data/ffhq/shapes.mp4"></video>
+            <span> Rendering of 3D Geometry </span>
+            <br><br>
+            <br><br>
+        </div>
+
+
+    
+        <h1>Novel Relighting (Strong Directional Light)</h1>
+        <div>
+            <div>
+                <video class="anim" autoplay muted loop controls src="data/ffhq/interp_lightcam_z1.mp4"></video>
+                <span> Novel Relighting with view changes </span>    
+            </div>
+            <br><br>
+            <div>
+                <video class="anim" autoplay muted loop controls src="data/ffhq/light_interp_x1.mp4"></video>
+                <span> Novel Relighting with Constant Pose with environment map rotated along X axis </span>    
+            </div>
+            <br><br>
+            <div>
+                <video class="anim" autoplay muted loop controls src="data/ffhq/light_interp_y1.mp4"></video>
+                <span> Novel Relighting with Constant Pose with environment map rotated along Y axis </span>                    
+            </div>
+            <br><br>
+            <div>
+                <video class="anim" autoplay muted loop controls src="data/ffhq/light_interp_z1.mp4"></video>
+                <span> Novel Relighting with Constant Pose with environment map rotated along Z axis </span>                    
+            </div>
+
+        </div>
+
+        <br><br>
+        <br><br>
+
+        <h1>Effect of varying Specular Component</h1>
+
+        <div>
+            <video class="anim" autoplay muted loop controls src="data/ffhq/specular_interp.mp4"></video>
+            <br><br>
+            <br><br>
+        </div>
+
+
+        <h1>Latent Space Interpolation</h1>
+
+        <div>
+            <video class="anim" autoplay muted loop controls src="data/ffhq/interp_latent.mp4"></video>
+            <br><br>
+            <br><br>
+        </div>
+
+        <h1>Additional Results on MetFaces dataset</h1>
+        <div>
+            <div>
+                <video class="anim" autoplay muted loop controls src="data/metfaces/metfaces_light_view_interp_x.mp4"></video>
+                <span> Novel Relighting with with Pose Interpolation </span>    
+            </div>
+            <br><br>
+            <div>
+                <video class="anim" autoplay muted loop controls src="data/metfaces/metfaces_light_interp_x.mp4"></video>
+                <span> Novel Relighting with Constant Pose with environment map rotated along X axis </span>                    
+            </div>
+            <br><br>
+            <div>
+                <video class="anim" autoplay muted loop controls src="data/metfaces/metfaces_interp_view.mp4"></video>
+                <span> Pose Interpolation with constant Illumination</span>                    
+            </div>
+
+        </div>
+
+
+        <br><br>
+        <br><br>
+
+
+
+    </div>
+</body>
+
+</html>

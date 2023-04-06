@@ -1,0 +1,124 @@
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_full_deca/, Pose_Errors: 0.0008494900961741841, Light_Errors: 0.00525004221844938
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_full_deca, Depth Error: 0.3998779058456421 +/- 0.40953999757766724 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_full_id, ID Cosine Similarity: 0.7392555394303417
+Model /home/anuragr/Research/facelit/pretrained/ffhq_128_full.pkl, fid50k_full: 3.935900202364654
+Model /home/anuragr/Research/facelit/pretrained/ffhq_128_full.pkl, kid50k_full: 0.0012013442892892863
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_diffuse_deca/, Pose_Errors: 0.0008510844809752389, Light_Errors: 0.005174856549075457
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_diffuse_deca, Depth Error: 0.6169108152389526 +/- 0.5065991282463074 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_diffuse_id, ID Cosine Similarity: 0.7494140262729585
+Model /home/anuragr/Research/facelit/pretrained/ffhq_128_diffuse.pkl, fid50k_full: 3.497438550106609
+Model /home/anuragr/Research/facelit/pretrained/ffhq_128_diffuse.pkl, kid50k_full: 0.0009180934084084129
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_full_deca/, Pose_Errors: 0.000862939138494218, Light_Errors: 0.0053445782251202445
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_full_deca, Depth Error: 0.3479193150997162 +/- 0.36721932888031006 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_full_id, ID Cosine Similarity: 0.708239942307958
+Model /home/anuragr/Research/facelit/pretrained/ffhq_full.pkl, fid50k_full: 4.064691001768301
+Model /home/anuragr/Research/facelit/pretrained/ffhq_full.pkl, kid50k_full: 0.0010990776026026106
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_diffuse_deca/, Pose_Errors: 0.0008917324225301767, Light_Errors: 0.005542750433875199
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_diffuse_deca, Depth Error: 0.3850061297416687 +/- 0.3423284590244293 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_diffuse_id, ID Cosine Similarity: 0.7212439294471424
+Model /home/anuragr/Research/facelit/pretrained/ffhq_diffuse.pkl, fid50k_full: 4.079942889056664
+Model /home/anuragr/Research/facelit/pretrained/ffhq_diffuse.pkl, kid50k_full: 0.0012194249349349502
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_full_deca/, Pose_Errors: 0.003206360486389327, Light_Errors: 0.009172062852940144
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_full_deca, Depth Error: 0.8028655052185059 +/- 0.3137427866458893 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_full_id, ID Cosine Similarity: 0.8537089320416591
+Model /home/anuragr/Research/facelit/pretrained/metfaces_full.pkl, fid50k_full: 15.601483535430326
+Model /home/anuragr/Research/facelit/pretrained/metfaces_full.pkl, kid50k_full: 0.002292383263263241
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_diffuse_deca/, Pose_Errors: 0.0016043440820934386, Light_Errors: 0.008085812330364206
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_diffuse_deca, Depth Error: 1.0469472408294678 +/- 0.3533797562122345 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_diffuse_id, ID Cosine Similarity: 0.8780064893378441
+Model /home/anuragr/Research/facelit/pretrained/metfaces_diffuse.pkl, fid50k_full: 15.252465511360292
+Model /home/anuragr/Research/facelit/pretrained/metfaces_diffuse.pkl, kid50k_full: 0.0022178180805805642
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_full_deca/, Pose_Errors: 0.001298444685260207, Light_Errors: 0.0037105450444983035
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_full_deca, Depth Error: 0.28745055198669434 +/- 0.26782020926475525 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_full_id, ID Cosine Similarity: 0.7508956610423394
+Model /home/anuragr/Research/facelit/pretrained/celeba_hq_full.pkl, fid50k_full: 3.961869267504036
+Model /home/anuragr/Research/facelit/pretrained/celeba_hq_full.pkl, kid50k_full: 0.0010444694444444666
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_diffuse_deca/, Pose_Errors: 0.0010095018938549995, Light_Errors: 0.0038484657031290226
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_diffuse_deca, Depth Error: 0.3271362781524658 +/- 0.27246591448783875 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_diffuse_id, ID Cosine Similarity: 0.7313289016768476
+Model /home/anuragr/Research/facelit/pretrained/celeba_hq_diffuse.pkl, fid50k_full: 3.643237178856611
+Model /home/anuragr/Research/facelit/pretrained/celeba_hq_diffuse.pkl, kid50k_full: 0.0009004333108108267
+
+===================================================================================================================
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_full_deca/, Pose_Errors: 0.0008094433356048091, Light_Errors: 0.005100455788550562
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_full_deca, Depth Error: 0.3968854546546936 +/- 0.38559815287590027 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_full_id, ID Cosine Similarity: 0.7428399020837094
+Model /home/anuragr/Research/facelit/pretrained/ffhq_128_full.pkl, fid50k_full: 3.928428769727646
+Model /home/anuragr/Research/facelit/pretrained/ffhq_128_full.pkl, kid50k_full: 0.001129518030530503
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_diffuse_deca/, Pose_Errors: 0.0007334958681363637, Light_Errors: 0.005068961204784728
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_diffuse_deca, Depth Error: 0.570417046546936 +/- 0.4718318283557892 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_diffuse_id, ID Cosine Similarity: 0.7476015558303155
+Model /home/anuragr/Research/facelit/pretrained/ffhq_128_diffuse.pkl, fid50k_full: 3.5388327024605797
+Model /home/anuragr/Research/facelit/pretrained/ffhq_128_diffuse.pkl, kid50k_full: 0.0008825416441441576
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_full_deca/, Pose_Errors: 0.0008142702194568205, Light_Errors: 0.005340270514054168
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_full_deca, Depth Error: 0.33354076743125916 +/- 0.3429819643497467 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_full_id, ID Cosine Similarity: 0.7204417674295048
+Model /home/anuragr/Research/facelit/pretrained/ffhq_full.pkl, fid50k_full: 4.117558166682517
+Model /home/anuragr/Research/facelit/pretrained/ffhq_full.pkl, kid50k_full: 0.001168207357357337
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_diffuse_deca/, Pose_Errors: 0.0009231215979873288, Light_Errors: 0.005168566735648028
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_diffuse_deca, Depth Error: 0.42766833305358887 +/- 0.36282774806022644 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_diffuse_id, ID Cosine Similarity: 0.7171097337733302
+Model /home/anuragr/Research/facelit/pretrained/ffhq_diffuse.pkl, fid50k_full: 4.015295348961315
+Model /home/anuragr/Research/facelit/pretrained/ffhq_diffuse.pkl, kid50k_full: 0.0011807686886886994
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_full_deca/, Pose_Errors: 0.002763815533139343, Light_Errors: 0.008072223696814262
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_full_deca, Depth Error: 0.757666826248169 +/- 0.2849588394165039 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_full_id, ID Cosine Similarity: 0.8569784895834724
+Model /home/anuragr/Research/facelit/pretrained/metfaces_full.pkl, fid50k_full: 15.503285516053953
+Model /home/anuragr/Research/facelit/pretrained/metfaces_full.pkl, kid50k_full: 0.002305935610610636
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_diffuse_deca/, Pose_Errors: 0.001547809810207816, Light_Errors: 0.006821958982726528
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_diffuse_deca, Depth Error: 0.9802653789520264 +/- 0.3320084810256958 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_diffuse_id, ID Cosine Similarity: 0.8732807684887874
+Model /home/anuragr/Research/facelit/pretrained/metfaces_diffuse.pkl, fid50k_full: 15.30135293637894
+Model /home/anuragr/Research/facelit/pretrained/metfaces_diffuse.pkl, kid50k_full: 0.002128615925925974
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_full_deca/, Pose_Errors: 0.0010291843941555856, Light_Errors: 0.004924592752658441
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_full_deca, Depth Error: 0.3032567501068115 +/- 0.3097401559352875 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_full_id, ID Cosine Similarity: 0.7598936663646141
+Model /home/anuragr/Research/facelit/pretrained/celeba_hq_full.pkl, fid50k_full: 3.9101721031084455
+Model /home/anuragr/Research/facelit/pretrained/celeba_hq_full.pkl, kid50k_full: 0.0010876232407407043
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_diffuse_deca/, Pose_Errors: 0.0010879894712595866, Light_Errors: 0.004253862952339205
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_diffuse_deca, Depth Error: 0.32491275668144226 +/- 0.25535300374031067 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_diffuse_id, ID Cosine Similarity: 0.7295142268078236
+Model /home/anuragr/Research/facelit/pretrained/celeba_hq_diffuse.pkl, fid50k_full: 3.654355873499989
+Model /home/anuragr/Research/facelit/pretrained/celeba_hq_diffuse.pkl, kid50k_full: 0.0008590163863863882
+
+==========================================================================================================
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_full_deca/, Pose_Errors: 0.0007484845301969716, Light_Errors: 0.005066526856694509
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_full_deca, Depth Error: 0.39845624566078186 +/- 0.39845117926597595 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_full_id, ID Cosine Similarity: 0.7368367056664172
+Model /home/anuragr/Research/facelit/pretrained/ffhq_128_full.pkl, fid50k_full: 3.9837327467052166
+Model /home/anuragr/Research/facelit/pretrained/ffhq_128_full.pkl, kid50k_full: 0.0012410091591591708
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_diffuse_deca/, Pose_Errors: 0.0007821084879922477, Light_Errors: 0.004942692096562951
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_diffuse_deca, Depth Error: 0.5728509426116943 +/- 0.48111215233802795 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_128_diffuse_id, ID Cosine Similarity: 0.7464216068117541
+Model /home/anuragr/Research/facelit/pretrained/ffhq_128_diffuse.pkl, fid50k_full: 3.5142877570425233
+Model /home/anuragr/Research/facelit/pretrained/ffhq_128_diffuse.pkl, kid50k_full: 0.0009065774699699841
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_full_deca/, Pose_Errors: 0.0007232593726626635, Light_Errors: 0.005309512448064879
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_full_deca, Depth Error: 0.33291059732437134 +/- 0.32940801978111267 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_full_id, ID Cosine Similarity: 0.7131937274050145
+Model /home/anuragr/Research/facelit/pretrained/ffhq_full.pkl, fid50k_full: 4.092247722212466
+Model /home/anuragr/Research/facelit/pretrained/ffhq_full.pkl, kid50k_full: 0.0011273755205205272
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_diffuse_deca/, Pose_Errors: 0.0009563588756367199, Light_Errors: 0.005849171767863481
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_diffuse_deca, Depth Error: 0.41165101528167725 +/- 0.3510235846042633 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/ffhq_diffuse_id, ID Cosine Similarity: 0.715993390907911
+Model /home/anuragr/Research/facelit/pretrained/ffhq_diffuse.pkl, fid50k_full: 4.0039390009138165
+Model /home/anuragr/Research/facelit/pretrained/ffhq_diffuse.pkl, kid50k_full: 0.001204135052552565
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_full_deca/, Pose_Errors: 0.0028653866067884027, Light_Errors: 0.00900491105232959
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_full_deca, Depth Error: 0.7739585638046265 +/- 0.29434579610824585 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_full_id, ID Cosine Similarity: 0.8539768871589262
+Model /home/anuragr/Research/facelit/pretrained/metfaces_full.pkl, fid50k_full: 15.55105871654903
+Model /home/anuragr/Research/facelit/pretrained/metfaces_full.pkl, kid50k_full: 0.002306783891391392
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_diffuse_deca/, Pose_Errors: 0.001611635030391198, Light_Errors: 0.006736752817545266
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_diffuse_deca, Depth Error: 0.9982224702835083 +/- 0.34113582968711853 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/metfaces_diffuse_id, ID Cosine Similarity: 0.8750779025831432
+Model /home/anuragr/Research/facelit/pretrained/metfaces_diffuse.pkl, fid50k_full: 15.306938327304447
+Model /home/anuragr/Research/facelit/pretrained/metfaces_diffuse.pkl, kid50k_full: 0.002260118485985968
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_full_deca/, Pose_Errors: 0.0009891901641532802, Light_Errors: 0.004140447452456897
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_full_deca, Depth Error: 0.28567394614219666 +/- 0.27460911870002747 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_full_id, ID Cosine Similarity: 0.7534754268561863
+Model /home/anuragr/Research/facelit/pretrained/celeba_hq_full.pkl, fid50k_full: 3.9010516683799805
+Model /home/anuragr/Research/facelit/pretrained/celeba_hq_full.pkl, kid50k_full: 0.0010843976826827246
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_diffuse_deca/, Pose_Errors: 0.001151086941811649, Light_Errors: 0.004684396231141363
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_diffuse_deca, Depth Error: 0.3317965865135193 +/- 0.2624334394931793 
+Img dir /home/anuragr/Research/facelit/pretrained/eval/celeba_hq_diffuse_id, ID Cosine Similarity: 0.7286347604265273
+Model /home/anuragr/Research/facelit/pretrained/celeba_hq_diffuse.pkl, fid50k_full: 3.618383464844371
+Model /home/anuragr/Research/facelit/pretrained/celeba_hq_diffuse.pkl, kid50k_full: 0.0008567958233233231
