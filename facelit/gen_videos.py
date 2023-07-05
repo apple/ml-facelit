@@ -101,8 +101,7 @@ def gen_interp_video(G, mp4: str, seeds, shuffle_seed=None, w_frames=60*4, kind=
     cam2world_pose = LookAtPoseSampler.sample(3.14/2, 3.14/2, camera_lookat_point, radius=2.7, device=device)
     intrinsics = torch.tensor([[4.2647, 0, 0.5], [0, 4.2647, 0.5], [0, 0, 1]], device=device)
 
-    light_data_path = '../data/FFHQ2x_512_deca_fits.zip'
-    light_sampler = LightSampler(file_path=light_data_path, n_samples=200)
+    light_sampler = LightSampler(file_path=None)
     light_center = torch.Tensor(light_sampler.load_deca_center_light()).to(device)
     if light_cond:
         c = torch.cat([cam2world_pose.reshape(-1, 16), intrinsics.reshape(-1, 9), light_center.reshape(-1, 27)], 1)
@@ -159,7 +158,7 @@ def gen_interp_video(G, mp4: str, seeds, shuffle_seed=None, w_frames=60*4, kind=
 
                 elif entangle in ['light', 'lightcam']:
                     light_param = frame_idx / (num_keyframes * w_frames)
-                    light_x = light_sampler[15]
+                    light_x = light_sampler.load_example_light()
                     light_fwd = torch.Tensor(rotate_SH_coeffs(light_x, angle_in_a_circle(light_param, axis='z'))).to(device)
                     if entangle == 'light':
                         cam2world_pose = LookAtPoseSampler.sample(3.14/2, 3.14/2, camera_lookat_point, radius=2.7, device=device)
@@ -176,7 +175,7 @@ def gen_interp_video(G, mp4: str, seeds, shuffle_seed=None, w_frames=60*4, kind=
                     img[:,-sphere_size:,-sphere_size:] = (1 - alpha_mask[None,:,:]) * img[:,-sphere_size:,-sphere_size:] + alpha_mask[None,:,:] * sphere_img
 
                 elif entangle in ['specular', 'specularcam']:
-                    light_fwd = torch.Tensor(rotate_SH_coeffs(light_sampler[15], angle_in_a_circle(0.01, 'y') )).to(device)
+                    light_fwd = torch.Tensor(rotate_SH_coeffs(light_sampler.load_example_light(), angle_in_a_circle(0.01, 'y') )).to(device)
                     if entangle == 'specular':
                         cam2world_pose = LookAtPoseSampler.sample(3.14/2, 3.14/2, camera_lookat_point, radius=2.7, device=device)
                         c = torch.cat([cam2world_pose.reshape(-1, 16), intrinsics.reshape(-1, 9), light_fwd.reshape(-1, 27)], dim=1)
@@ -186,13 +185,13 @@ def gen_interp_video(G, mp4: str, seeds, shuffle_seed=None, w_frames=60*4, kind=
                         else:
                             specular_blend_weight = 0.6 + 2*(1-specular_blend_weight)*0.8
 
-                        specular_light = torch.Tensor(rotate_SH_coeffs(light_sampler[15], 
+                        specular_light = torch.Tensor(rotate_SH_coeffs(light_sampler.load_example_light(), 
                             angle_in_a_circle(0.5, 'y') )).to(device)
                     
                     elif entangle == 'specularcam':
                         c = torch.cat([c, light_fwd.reshape(-1, 27)], dim=1)
                         specular_blend_weight = frame_idx/ w_frames 
-                        specular_light = torch.Tensor(rotate_SH_coeffs(light_sampler[15], 
+                        specular_light = torch.Tensor(rotate_SH_coeffs(light_sampler.load_example_light(), 
                             angle_in_a_circle(specular_blend_weight, 'y') )).to(device)
                     img = G.synthesis_with_light(ws=w.unsqueeze(0), c=c, diffuse=light_center, specular=specular_light, noise_mode='const', w_specular=specular_blend_weight)[image_mode][0]
                     

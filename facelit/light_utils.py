@@ -10,7 +10,8 @@ class LightSampler:
         self.file_path = file_path
         self.n_samples = n_samples
         self.samples = []
-        self.load_samples_deca()
+        if file_path:
+            self.load_samples_deca()
 
     def __getitem__(self, x):
         return self.samples[x]
@@ -38,6 +39,18 @@ class LightSampler:
             [-0.26489747, -0.2669786 , -0.27070296],
             [-0.14320635, -0.14578062, -0.14734463]])
         return light_center
+    
+    def load_example_light(self):
+        light_example = np.array([[ 3.771178  ,  3.7427683 ,  3.7262695 ],
+            [ 0.61907625,  0.64627063,  0.6586845 ],
+            [ 0.12327883,  0.1393056 ,  0.14595708],
+            [-0.05614763, -0.13551557, -0.18642123],
+            [ 0.16737181,  0.17622612,  0.1762912 ],
+            [-0.35876027, -0.34836414, -0.34084535],
+            [-0.27892843, -0.2709781 , -0.26631117],
+            [ 0.34128147,  0.34679288,  0.33911693],
+            [-0.19352779, -0.2072117 , -0.22149608]])
+        return light_example
     
     def sample(self):
         return self.samples[randrange(self.n_samples)]
